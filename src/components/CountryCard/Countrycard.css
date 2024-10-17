@@ -1,0 +1,44 @@
+.card{
+    width: 11rem;
+    height: 16rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 0px gray;
+    transition: 240ms;
+    cursor: pointer;
+    margin-top: 1px;
+}
+
+.card:hover{
+    box-shadow: 0px 2px 15px 8px gray;
+}
+.card a{
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+}
+.card img{
+    width: 11rem;
+    height: 8rem;
+    object-fit: cover;
+}
+
+.country{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0px 50px;
+    margin-bottom: 1rem;
+}
+
+.card-detail{
+    padding: 10px 20px;
+    word-break: break-all;
+}

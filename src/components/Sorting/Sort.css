@@ -1,0 +1,25 @@
+.sorting select{
+    padding: 5px 10px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 5px 1px gray;
+    border-radius: 5px;
+    padding: 10px 10px;
+    width: 13rem;
+    background: inherit;
+    color: inherit;
+}
+
+option{
+    background: hsl(208, 22%, 13%);
+    color: #fff;
+}
+
+@media (max-width: 536px) {
+    .sorting{
+        margin-top: 1rem;
+    }
+}
+
+

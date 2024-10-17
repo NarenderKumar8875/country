@@ -1,0 +1,37 @@
+.country img {
+  width: 12rem;
+  box-shadow: 0px 0px 15px 5px gray;
+}
+
+.country {
+  margin-top: 1.5rem;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.country-detal {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.country-detal a {
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px black;
+  color: inherit;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 900px;
+}

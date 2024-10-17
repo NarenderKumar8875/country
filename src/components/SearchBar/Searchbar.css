@@ -1,0 +1,28 @@
+.search-bar input{
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    background: inherit;
+    color: inherit;
+}
+
+.search-bar{
+    display: inline;
+    box-shadow: 1px 1px 5px 1px gray;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+@media  (max-width:360px) {
+    .search-bar{
+        display: flex;
+        align-items: center;
+        box-shadow: 1px 1px 5px 1px gray;
+        border-radius: 5px;
+    }
+    .search-bar input{
+        padding: 5px 0;
+        font-size: 12px;
+    }
+}
